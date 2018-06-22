@@ -153,7 +153,6 @@ function isTerminal(ch: string): boolean {
     }
 }
 
-let scan = new Scanner(new CharStream('{"key":true}'))
-for (let ch of scan) {
-    console.log(scan.text(ch))
+export {
+    Scanner, CharStream
 }
